@@ -9226,6 +9226,10 @@ final class ActivityRecord extends WindowToken implements WindowManagerService.A
         return mPauseConfigurationDispatchCount > 0;
     }
 
+    public boolean shouldForceCutoutFullscreen(String packageName) {
+        return mActivityTaskManager.shouldForceCutoutFullscreen(packageName);
+    }
+
     /**
      * Returns the min aspect ratio of this activity.
      */
