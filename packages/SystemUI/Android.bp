@@ -576,7 +576,12 @@ android_library {
         "TraceurCommon",
         "Traceur-res",
         "//frameworks/libs/systemui:motion_tool_lib",
+<<<<<<< HEAD
         "//frameworks/libs/systemui:contextualeducationlib",
+=======
+        "motion_tool_lib",
+        "bcsmartspace-google",
+>>>>>>> 1f4f7ac26fbf (SystemUI: Implement Reverse-engineered Smartspace)
         "notification_flags_lib",
         "PlatformComposeCore",
         "PlatformComposeSceneTransitionLayout",
